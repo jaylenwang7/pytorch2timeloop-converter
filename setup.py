@@ -5,7 +5,7 @@ with open("requirements.txt", "r") as fh:
 
 setup(name='pytorch2timeloop',
       version='0.2',
-      url='https://github.com/Accelergy-Project/pytorch2timeloop-converter',
+      url='https://github.com/jaylenwang7/pytorch2timeloop-converter',
       license='MIT',
       install_requires=[req for req in requirements if req[:2] != "# "],
       python_requires='>=3.6',
